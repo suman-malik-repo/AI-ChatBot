@@ -113,6 +113,7 @@ public class MainActivity extends AppCompatActivity {
                 .header("Authorization","Bearer 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")
                 .post(body)
                 .build();
+        //replace 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 with your own openai API keys
         client.newCall(request).enqueue(new Callback() {
             @Override
             public void onFailure(@NonNull Call call, @NonNull IOException e) {
