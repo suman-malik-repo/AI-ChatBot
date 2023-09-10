@@ -1,5 +1,5 @@
 package com.parolim.aichatbot;
-//importing the package
+//importing the package...
 
 public class Message {
     public static String SEND_BY_ME = "me";
