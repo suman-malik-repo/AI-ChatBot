@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        //abc
+        //comment...
     }
 
     void addToChat(String message, String sendBy){
